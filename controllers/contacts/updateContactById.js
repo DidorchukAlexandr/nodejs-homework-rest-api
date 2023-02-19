@@ -1,5 +1,5 @@
 const contactsOperations = require("../../models/contacts");
-const createError = require("http-error");
+const createError = require("http-errors");
 
 const updateContactById = async (req, res) => {
   const { contactId } = req.params;
