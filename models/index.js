@@ -4,7 +4,7 @@ const {
   patchJoiShema,
   favoriteJoiSchema,
 } = require("./contact");
-const { User, authJoiSchema, updateSubscribeSchema } = require("./user");
+const { User, schemas } = require("./user");
 
 module.exports = {
   Contact,
@@ -12,6 +12,5 @@ module.exports = {
   patchJoiShema,
   favoriteJoiSchema,
   User,
-  authJoiSchema,
-  updateSubscribeSchema,
+  schemas,
 };
